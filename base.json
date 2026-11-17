@@ -1,0 +1,249 @@
+{
+  "versao": "1.0",
+  "atualizado_em": "2026-11-17",
+  "aviso_geral": "Conteúdo informativo, montado a partir de fontes públicas. Este assistente não é canal oficial de nenhum órgão público. Confirme sempre as regras atuais na fonte indicada.",
+  "temas": {
+    "documentacao": {
+      "nome": "Documentação",
+      "descricao": "Como tirar ou recuperar documentos pessoais básicos.",
+      "subtemas": {
+        "identificacao": "Documentos de identificação (CIN e CPF)",
+        "registro_civil": "Certidões de nascimento, casamento e óbito",
+        "eleitoral": "Título de eleitor",
+        "trabalho": "Carteira de Trabalho"
+      }
+    },
+    "servicos": {
+      "nome": "Serviços públicos",
+      "descricao": "Acesso a serviços digitais, benefícios e saúde.",
+      "subtemas": {
+        "acesso_digital": "Conta gov.br",
+        "previdencia": "INSS",
+        "assistencia_social": "Cadastro Único",
+        "beneficio_trabalhista": "Seguro-desemprego",
+        "saude": "Cartão do SUS"
+      }
+    },
+    "direitos": {
+      "nome": "Direitos e orientação comunitária",
+      "descricao": "Direitos do consumidor, acesso à Justiça e canais de denúncia.",
+      "subtemas": {
+        "consumidor": "Direitos do consumidor e reclamações",
+        "acesso_justica": "Defensoria Pública e Juizado Especial",
+        "protecao": "Canais de denúncia de violações de direitos"
+      }
+    }
+  },
+  "registros": [
+    {
+      "id": "DOC01",
+      "tema": "documentacao",
+      "subtema": "identificacao",
+      "pergunta": "Como tirar a nova Carteira de Identidade Nacional (CIN)?",
+      "palavras_chave": ["cin", "rg", "identidade", "carteira de identidade", "nova identidade", "documento com foto", "tirar rg"],
+      "orientacao": "A CIN substitui o antigo RG e usa o número do CPF como identificação única. Para emitir, acesse gov.br/identidade, escolha seu estado e agende o atendimento para a coleta da biometria. No dia, leve a certidão de nascimento ou de casamento original. A primeira via é gratuita. Depois de emitida, a versão digital fica disponível no aplicativo gov.br.",
+      "fonte": "Ministério da Gestão e da Inovação em Serviços Públicos (MGI) - gov.br",
+      "referencia": "https://www.gov.br/gestao/pt-br/assuntos/noticias/2026/maio/semana-do-trabalhador-e-da-trabalhadora-aproxima-estado-da-populacao-com-emissao-da-nova-cin",
+      "data_verificacao": "2026-11-17",
+      "requer_confirmacao": true,
+      "observacao": "O agendamento e os locais de atendimento variam por estado.",
+      "relacionados": ["DOC03", "DOC02", "SERV01"]
+    },
+    {
+      "id": "DOC02",
+      "tema": "documentacao",
+      "subtema": "identificacao",
+      "pergunta": "Como fazer o CPF ou consultar minha situação cadastral?",
+      "palavras_chave": ["cpf", "cadastro de pessoa fisica", "tirar cpf", "inscricao cpf", "situacao cadastral", "comprovante cpf", "receita federal"],
+      "orientacao": "A inscrição no CPF é gratuita e pode ser feita pela internet, no site da Receita Federal, sem intermediários. Em unidades conveniadas (como Correios, Banco do Brasil, Caixa e cartórios de registro civil), pode haver uma taxa de atendimento de R$ 7,00. A consulta da situação cadastral e a emissão do comprovante de inscrição também são gratuitas no portal gov.br.",
+      "fonte": "Receita Federal - gov.br",
+      "referencia": "https://www.gov.br/pt-br/servicos/consultar-cadastro-de-pessoas-fisicas",
+      "data_verificacao": "2026-11-17",
+      "requer_confirmacao": true,
+      "observacao": "Desconfie de quem cobra para fazer a inscrição online.",
+      "relacionados": ["DOC01", "SERV01", "SERV05"]
+    },
+    {
+      "id": "DOC03",
+      "tema": "documentacao",
+      "subtema": "registro_civil",
+      "pergunta": "Como pedir a segunda via da certidão de nascimento?",
+      "palavras_chave": ["certidao", "certidao de nascimento", "segunda via", "2 via", "perdi a certidao", "certidao de casamento", "certidao de obito", "cartorio"],
+      "orientacao": "A segunda via das certidões de nascimento, casamento e óbito pode ser pedida pela internet no Portal do Registro Civil (registrocivil.org.br), que reúne os cartórios de todo o país. É possível entrar com a conta gov.br e escolher entre certidão digital (PDF) ou impressa. Também dá para pedir presencialmente em qualquer cartório de registro civil. O registro de nascimento e a primeira certidão são gratuitos; a segunda via costuma ter custo, exceto para pessoas reconhecidamente pobres.",
+      "fonte": "Portal do Registro Civil (ON-RCPN) / Corregedoria do TJMA",
+      "referencia": "https://www.registrocivil.org.br",
+      "data_verificacao": "2026-11-17",
+      "requer_confirmacao": true,
+      "observacao": "Os valores das certidões são definidos por cada estado.",
+      "relacionados": ["DOC01", "SERV03"]
+    },
+    {
+      "id": "DOC04",
+      "tema": "documentacao",
+      "subtema": "eleitoral",
+      "pergunta": "Como tirar o título de eleitor pela primeira vez?",
+      "palavras_chave": ["titulo", "titulo de eleitor", "eleitor", "votar", "alistamento", "tse", "titulo net", "e-titulo", "justica eleitoral"],
+      "orientacao": "O primeiro título pode ser pedido gratuitamente no Autoatendimento Eleitoral - Título Net, no portal do TSE. É preciso enviar um documento oficial com foto (frente e verso), um comprovante de residência atualizado e uma selfie segurando o documento. Quem tira o título pela primeira vez precisa ir ao cartório eleitoral para coletar a biometria. Pode tirar a partir dos 15 anos; o voto é permitido a partir dos 16. Quem já é eleitor tem a via digital no aplicativo e-Título.",
+      "fonte": "Tribunal Superior Eleitoral (TSE)",
+      "referencia": "https://www.tse.jus.br/eleitor/titulo-de-eleitor/pre-atendimento-eleitoral-titulo-net",
+      "data_verificacao": "2026-11-17",
+      "requer_confirmacao": true,
+      "observacao": "Em anos de eleição, o cadastro eleitoral fecha alguns meses antes do pleito.",
+      "relacionados": ["DOC01", "SERV01"]
+    },
+    {
+      "id": "DOC05",
+      "tema": "documentacao",
+      "subtema": "trabalho",
+      "pergunta": "Como obter a Carteira de Trabalho Digital?",
+      "palavras_chave": ["carteira de trabalho", "ctps", "carteira digital", "trabalho digital", "emprego", "registro em carteira"],
+      "orientacao": "A Carteira de Trabalho Digital é gratuita e substitui a carteira de papel. Basta ter o número do CPF e uma conta gov.br. Baixe o aplicativo Carteira de Trabalho Digital (Android ou iOS) ou acesse pelo portal gov.br e entre com seu login. Os vínculos de emprego informados pelo empregador aparecem no aplicativo.",
+      "fonte": "Ministério do Trabalho e Emprego - gov.br",
+      "referencia": "https://www.gov.br/pt-br/servicos/obter-a-carteira-de-trabalho",
+      "data_verificacao": "2026-11-17",
+      "requer_confirmacao": false,
+      "observacao": "",
+      "relacionados": ["SERV01", "SERV04"]
+    },
+    {
+      "id": "SERV01",
+      "tema": "servicos",
+      "subtema": "acesso_digital",
+      "pergunta": "O que são os níveis bronze, prata e ouro da conta gov.br?",
+      "palavras_chave": ["gov.br", "govbr", "conta gov", "senha gov", "nivel prata", "nivel ouro", "nivel bronze", "selo de confiabilidade", "login gov"],
+      "orientacao": "A conta gov.br é gratuita e dá acesso a milhares de serviços digitais do governo. Ela tem três níveis: bronze (básico), prata e ouro, conforme a forma como sua identidade foi validada. Alguns serviços exigem prata ou ouro. Para subir de nível, entre no aplicativo gov.br ou em confiabilidades.acesso.gov.br e use uma das opções de validação, como reconhecimento facial, banco credenciado ou a Carteira de Identidade Nacional.",
+      "fonte": "Secretaria de Governo Digital - gov.br",
+      "referencia": "https://www.gov.br/governodigital/pt-br/conta-gov-br",
+      "data_verificacao": "2026-11-17",
+      "requer_confirmacao": false,
+      "observacao": "Nunca informe sua senha gov.br a terceiros.",
+      "relacionados": ["SERV02", "DOC05", "SERV05"]
+    },
+    {
+      "id": "SERV02",
+      "tema": "servicos",
+      "subtema": "previdencia",
+      "pergunta": "Como acessar os serviços do INSS?",
+      "palavras_chave": ["inss", "meu inss", "aposentadoria", "beneficio", "previdencia", "135", "pericia", "auxilio"],
+      "orientacao": "Os serviços do INSS podem ser pedidos pelo site ou aplicativo Meu INSS (meu.inss.gov.br), com o login da conta gov.br. Lá há opção \"Novo Pedido\" para solicitar benefícios e acompanhar processos. Quem não tem internet pode ligar para a Central 135. O atendimento presencial nas agências precisa de agendamento.",
+      "fonte": "Instituto Nacional do Seguro Social (INSS)",
+      "referencia": "https://meu.inss.gov.br",
+      "data_verificacao": "2026-11-17",
+      "requer_confirmacao": true,
+      "observacao": "O INSS não pede dados nem senha por e-mail ou WhatsApp. Use só os canais oficiais.",
+      "relacionados": ["SERV01", "DIR03"]
+    },
+    {
+      "id": "SERV03",
+      "tema": "servicos",
+      "subtema": "assistencia_social",
+      "pergunta": "Como me inscrever no Cadastro Único (CadÚnico)?",
+      "palavras_chave": ["cadunico", "cadastro unico", "bolsa familia", "programa social", "nis", "cras", "beneficio social", "baixa renda"],
+      "orientacao": "O Cadastro Único reúne informações das famílias de baixa renda e é a porta de entrada para vários programas sociais. A primeira inscrição é feita presencialmente, no CRAS ou no posto do Cadastro Único da sua cidade, pelo responsável familiar, levando documentos de todas as pessoas da casa (como CPF). Estar no CadÚnico não garante entrada automática nos programas, pois cada um tem suas regras. A consulta dos dados pode ser feita pelo aplicativo ou site do CadÚnico.",
+      "fonte": "Ministério do Desenvolvimento e Assistência Social - gov.br",
+      "referencia": "https://www.gov.br/pt-br/servicos/inscrever-se-no-cadastro-unico-para-programas-sociais-do-governo-federal",
+      "data_verificacao": "2026-11-17",
+      "requer_confirmacao": true,
+      "observacao": "Documentos e horários de atendimento variam por município.",
+      "relacionados": ["DOC02", "DOC03", "DIR03"]
+    },
+    {
+      "id": "SERV04",
+      "tema": "servicos",
+      "subtema": "beneficio_trabalhista",
+      "pergunta": "Como pedir o seguro-desemprego?",
+      "palavras_chave": ["seguro desemprego", "seguro-desemprego", "demitido", "demissao", "fui mandado embora", "sem justa causa", "desempregado"],
+      "orientacao": "O seguro-desemprego é para quem trabalhava com carteira assinada e foi dispensado sem justa causa. O trabalhador formal deve fazer o pedido entre o 7º e o 120º dia corrido após a demissão. A solicitação pode ser feita pelo aplicativo Carteira de Trabalho Digital, pelo portal gov.br (com o número do requerimento entregue pela empresa) ou presencialmente em uma unidade de atendimento. As parcelas são pagas pela Caixa.",
+      "fonte": "Ministério do Trabalho e Emprego - gov.br",
+      "referencia": "https://www.gov.br/pt-br/servicos/solicitar-o-seguro-desemprego",
+      "data_verificacao": "2026-11-17",
+      "requer_confirmacao": true,
+      "observacao": "Empregados domésticos e outras categorias têm prazos e regras próprios.",
+      "relacionados": ["DOC05", "SERV01", "DIR04"]
+    },
+    {
+      "id": "SERV05",
+      "tema": "servicos",
+      "subtema": "saude",
+      "pergunta": "Como conseguir ou consultar o Cartão do SUS?",
+      "palavras_chave": ["sus", "cartao do sus", "cartao sus", "cns", "cartao nacional de saude", "meu sus digital", "saude", "posto de saude"],
+      "orientacao": "O Cartão Nacional de Saúde identifica o cidadão no SUS. A consulta e a versão digital estão no aplicativo ou site Meu SUS Digital, com login da conta gov.br, na área \"Meu Perfil\". O novo cartão exibe nome e CPF. Quem não consegue pelo aplicativo pode procurar uma unidade básica de saúde com documento de identificação e comprovante de residência.",
+      "fonte": "Ministério da Saúde - gov.br",
+      "referencia": "https://www.gov.br/saude/pt-br/assuntos/noticias/2025/setembro/ministerio-da-saude-comeca-a-emitir-cartao-sus-com-base-no-cpf",
+      "data_verificacao": "2026-11-17",
+      "requer_confirmacao": false,
+      "observacao": "",
+      "relacionados": ["SERV01", "DOC02"]
+    },
+    {
+      "id": "DIR01",
+      "tema": "direitos",
+      "subtema": "consumidor",
+      "pergunta": "Posso desistir de uma compra feita pela internet?",
+      "palavras_chave": ["arrependimento", "desistir da compra", "devolver", "compra online", "compra pela internet", "7 dias", "cancelar compra", "reembolso", "cdc"],
+      "orientacao": "Sim. Pelo artigo 49 do Código de Defesa do Consumidor, quem compra fora da loja física (internet, telefone, aplicativo ou em casa) pode desistir em até 7 dias corridos, contados da assinatura ou do recebimento do produto, sem precisar justificar. Os valores pagos, inclusive o frete, devem ser devolvidos. Esse direito não vale, como regra, para compras feitas dentro da loja física.",
+      "fonte": "Lei nº 8.078/1990 (Código de Defesa do Consumidor), art. 49 - Planalto",
+      "referencia": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+      "data_verificacao": "2026-11-17",
+      "requer_confirmacao": false,
+      "observacao": "Guarde comprovantes do pedido e da comunicação da desistência.",
+      "relacionados": ["DIR02", "DIR04"]
+    },
+    {
+      "id": "DIR02",
+      "tema": "direitos",
+      "subtema": "consumidor",
+      "pergunta": "Como fazer uma reclamação contra uma empresa?",
+      "palavras_chave": ["reclamacao", "reclamar", "procon", "consumidor.gov", "empresa", "problema com compra", "denunciar empresa", "atendimento ruim"],
+      "orientacao": "Uma opção gratuita e online é o Consumidor.gov.br, plataforma pública ligada ao Ministério da Justiça. Verifique se a empresa está cadastrada e registre a reclamação: a empresa tem até 10 dias para responder, e depois você tem até 20 dias para avaliar se o problema foi resolvido. Também é possível procurar o Procon da sua cidade ou estado.",
+      "fonte": "Secretaria Nacional do Consumidor (Senacon) - Boletim Consumidor.gov.br",
+      "referencia": "https://www.consumidor.gov.br",
+      "data_verificacao": "2026-11-17",
+      "requer_confirmacao": false,
+      "observacao": "O Consumidor.gov.br não abre processo judicial contra a empresa.",
+      "relacionados": ["DIR01", "DIR04"]
+    },
+    {
+      "id": "DIR03",
+      "tema": "direitos",
+      "subtema": "acesso_justica",
+      "pergunta": "Quem tem direito à Defensoria Pública?",
+      "palavras_chave": ["defensoria", "defensor publico", "advogado gratuito", "assistencia juridica", "nao tenho dinheiro para advogado", "justica gratuita", "orientacao juridica"],
+      "orientacao": "A Constituição garante assistência jurídica integral e gratuita a quem comprovar que não pode pagar um advogado sem prejudicar o próprio sustento (art. 5º, LXXIV, e art. 134). Esse atendimento é feito pela Defensoria Pública do seu estado ou, em causas federais (como INSS), pela Defensoria Pública da União. Em geral, leve documento de identidade, CPF, comprovante de residência e de renda.",
+      "fonte": "Constituição Federal de 1988, art. 5º, LXXIV, e art. 134 - Planalto",
+      "referencia": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+      "data_verificacao": "2026-11-17",
+      "requer_confirmacao": true,
+      "observacao": "Os critérios de renda e a forma de agendamento são definidos por cada Defensoria.",
+      "relacionados": ["DIR04", "DIR05", "SERV02"]
+    },
+    {
+      "id": "DIR04",
+      "tema": "direitos",
+      "subtema": "acesso_justica",
+      "pergunta": "Como funciona o Juizado Especial Cível (pequenas causas)?",
+      "palavras_chave": ["juizado", "juizado especial", "pequenas causas", "processar", "entrar na justica", "acao judicial", "sem advogado", "jec"],
+      "orientacao": "O Juizado Especial Cível julga causas de menor complexidade com valor de até 40 salários mínimos, de forma mais simples e rápida, buscando primeiro a conciliação. Em causas de até 20 salários mínimos, a pessoa pode entrar com a ação sem advogado; acima disso, o advogado é obrigatório. Em caso de recurso, também é preciso advogado.",
+      "fonte": "Lei nº 9.099/1995 (arts. 3º e 9º) - Planalto",
+      "referencia": "https://www.planalto.gov.br/ccivil_03/leis/l9099.htm",
+      "data_verificacao": "2026-11-17",
+      "requer_confirmacao": true,
+      "observacao": "O valor em reais muda todo ano com o salário mínimo. Confira no Juizado da sua cidade.",
+      "relacionados": ["DIR03", "DIR02", "DIR01"]
+    },
+    {
+      "id": "DIR05",
+      "tema": "direitos",
+      "subtema": "protecao",
+      "pergunta": "Onde denunciar violação de direitos humanos ou violência contra a mulher?",
+      "palavras_chave": ["denuncia", "denunciar", "disque 100", "ligue 180", "violencia", "violencia contra mulher", "direitos humanos", "abuso", "maus tratos", "idoso", "crianca"],
+      "orientacao": "O Disque 100 recebe denúncias de violações de direitos humanos (por exemplo, contra crianças, idosos e pessoas com deficiência), e o Ligue 180 atende mulheres em situação de violência. Os dois são gratuitos e funcionam 24 horas, todos os dias. Também há atendimento por WhatsApp: Disque 100 em (61) 99611-0100 e Ligue 180 em (61) 9610-0180. Não é preciso apresentar provas, e a pessoa recebe um protocolo para acompanhar. Em emergência, ligue 190.",
+      "fonte": "Ministério dos Direitos Humanos e da Cidadania / Ministério das Mulheres - gov.br",
+      "referencia": "https://www.gov.br/mdh/pt-br/servicos/denunciar-violacao-de-direitos-humanos-disque-100",
+      "data_verificacao": "2026-11-17",
+      "requer_confirmacao": false,
+      "observacao": "Ligue 180: https://www.gov.br/pt-br/servicos/denunciar-e-buscar-ajuda-a-vitimas-de-violencia-contra-mulheres",
+      "relacionados": ["DIR03"]
+    }
+  ]
+}
