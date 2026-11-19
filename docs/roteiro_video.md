@@ -1,7 +1,7 @@
 # Roteiro do vídeo — Citizen Assist AI
 
 **Duração alvo:** 6 a 7 minutos (confirmar o limite no enunciado da FIAP ON).
-**Formato:** gravação de tela do terminal e da documentação, com narração. Cada integrante apresenta a parte que fez.
+**Formato:** gravação de tela da interface gráfica e da documentação, com narração. O modo terminal pode aparecer brevemente para demonstrar a lógica. Cada integrante apresenta a parte que fez.
 **Publicação:** YouTube como **"Não Listado"**.
 
 > Os trechos entre [colchetes] devem ser preenchidos com os resultados reais dos testes antes da gravação.
@@ -26,24 +26,24 @@
 
 ## Cena 3 — Demonstração do sistema (1:40 – 4:00)
 **Quem fala:** Pessoa 3
-**Tela:** terminal com `python src/sistema.py`.
+**Tela:** executar `python src/sistema.py` e mostrar a interface gráfica.
 
-1. **Menu de temas**: escolher *Documentação → Identificação → CIN*. Mostrar a resposta, a fonte, o link e o aviso de confirmação.
+1. **Escolher um tema**: seguir *Documentação → Identificação → CIN*. Mostrar a resposta, a fonte, o link e o aviso de confirmação.
    > "Toda resposta vem com a fonte, a data em que foi verificada e, quando a regra pode mudar, um aviso para confirmar no canal oficial."
 2. **Pergunta direta**: digitar *"como tirar o título de eleitor?"*.
 3. **Pergunta reformulada**: digitar *"fui mandado embora, o que eu faço?"*, que deve encontrar o seguro-desemprego.
    > "Mesmo sem usar as palavras exatas, a busca encontra a orientação pelas palavras-chave."
-4. **Navegação**: a partir do seguro-desemprego, escolher um assunto relacionado e seguir por pelo menos 3 assuntos.
-5. **Várias correspondências**: digitar *"documento"*. O sistema mostra as opções mais próximas e pede para escolher.
+4. **Navegação**: a partir do seguro-desemprego, abrir “Ver assuntos relacionados” e seguir por pelo menos 3 assuntos.
+5. **Várias correspondências**: digitar *"documento"*. O sistema mostra assuntos de documentação para escolher.
 6. **Fora do tema**: digitar *"qual a previsão do tempo amanhã?"*. O sistema avisa que não tem base suficiente e sugere temas.
-7. **Entrada vazia e opção inválida**: apertar Enter sem digitar nada e depois escolher a opção "99" no menu.
+7. **Entrada vazia e opção inválida**: apertar Enter sem digitar nada na interface. Em seguida, abrir o modo terminal com `python src/sistema.py --terminal` e escolher "99" no menu.
    > "O assistente nunca inventa uma resposta e não se apresenta como canal oficial. Ele também não pede nenhum dado pessoal."
 
 ## Cena 4 — Modelos de resposta (4:00 – 4:40)
 **Quem fala:** Pessoa 3
-**Tela:** os dois modelos lado a lado, ou `docs/prompts.md`.
+**Tela:** a mesma orientação antes e depois de clicar em “Ler por partes”.
 
-> "Criamos dois modelos de resposta. O modelo A é simples e mostra só a orientação e a fonte. O modelo B é estruturado: define o papel do assistente, separa a resposta em partes e obriga a citação da fonte e do aviso. Nos testes, o modelo [A/B] foi mais claro e consistente porque [motivo]."
+> "Criamos dois modelos de resposta. O modelo A apresenta o texto corrido. O B separa a leitura em partes e acrescenta a observação cadastrada. Ambos mostram a fonte, a data de verificação e o aviso de confirmação quando necessário. Nos testes, o modelo [A/B] foi mais claro e consistente porque [motivo]."
 
 ## Cena 5 — Testes e indicadores (4:40 – 5:50)
 **Quem fala:** Pessoa 2
@@ -65,8 +65,8 @@
 
 ## Checklist antes de gravar
 - [ ] Resultados reais dos testes preenchidos nos [colchetes].
-- [ ] `python src/sistema.py` rodando sem erros, com as perguntas da Cena 3 já testadas.
-- [ ] Fonte do terminal aumentada (fácil de ler no vídeo).
+- [ ] `python src/sistema.py` abrindo a interface sem erros, com as perguntas da Cena 3 já testadas.
+- [ ] Interface e, quando mostrado, terminal em tamanho legível no vídeo.
 - [ ] Nenhum dado pessoal, senha ou aba privada aparecendo na tela.
 - [ ] Áudio testado e o tempo total dentro do limite.
 - [ ] Vídeo publicado como "Não Listado" e link testado em uma aba anônima.

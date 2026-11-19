@@ -1,0 +1,303 @@
+﻿teste,modelo,pergunta,esperado,obtido,acerto,tempo_ms,orientacao
+T01,A,Como tirar o RG?,encontrado DOC01,encontrado DOC01,True,0.1677,"Como tirar a nova Carteira de Identidade Nacional (CIN)?
+
+A CIN substitui o antigo RG e usa o número do CPF como identificação única. Para emitir, acesse gov.br/identidade, escolha seu estado e agende o atendimento para a coleta da biometria. No dia, leve a certidão de nascimento ou de casamento original. A primeira via é gratuita. Depois de emitida, a versão digital fica disponível no aplicativo gov.br.
+
+Fonte: Ministério da Gestão e da Inovação em Serviços Públicos (MGI) - gov.br
+Referência: https://www.gov.br/gestao/pt-br/assuntos/noticias/2026/maio/semana-do-trabalhador-e-da-trabalhadora-aproxima-estado-da-populacao-com-emissao-da-nova-cin
+Verificada em: 2026-11-17
+
+Confirme as regras atuais na fonte indicada antes de agir.
+
+Conteúdo informativo, montado a partir de fontes públicas. Este assistente não é canal oficial de nenhum órgão público. Confirme sempre as regras atuais na fonte indicada."
+T01,B,Como tirar o RG?,encontrado DOC01,encontrado DOC01,True,0.2585,"Como tirar a nova Carteira de Identidade Nacional (CIN)?
+
+A CIN substitui o antigo RG e usa o número do CPF como identificação única.
+
+Para emitir, acesse gov.br/identidade, escolha seu estado e agende o atendimento para a coleta da biometria.
+
+No dia, leve a certidão de nascimento ou de casamento original.
+
+A primeira via é gratuita.
+
+Depois de emitida, a versão digital fica disponível no aplicativo gov.br.
+
+Observação: O agendamento e os locais de atendimento variam por estado.
+
+Fonte: Ministério da Gestão e da Inovação em Serviços Públicos (MGI) - gov.br
+Referência: https://www.gov.br/gestao/pt-br/assuntos/noticias/2026/maio/semana-do-trabalhador-e-da-trabalhadora-aproxima-estado-da-populacao-com-emissao-da-nova-cin
+Verificada em: 2026-11-17
+
+Confirme as regras atuais na fonte indicada antes de agir.
+
+Conteúdo informativo, montado a partir de fontes públicas. Este assistente não é canal oficial de nenhum órgão público. Confirme sempre as regras atuais na fonte indicada."
+T02,A,Onde consultar o CPF?,encontrado DOC02,encontrado DOC02,True,0.1362,"Como fazer o CPF ou consultar minha situação cadastral?
+
+A inscrição no CPF é gratuita e pode ser feita pela internet, no site da Receita Federal, sem intermediários. Em unidades conveniadas (como Correios, Banco do Brasil, Caixa e cartórios de registro civil), pode haver uma taxa de atendimento de R$ 7,00. A consulta da situação cadastral e a emissão do comprovante de inscrição também são gratuitas no portal gov.br.
+
+Fonte: Receita Federal - gov.br
+Referência: https://www.gov.br/pt-br/servicos/consultar-cadastro-de-pessoas-fisicas
+Verificada em: 2026-11-17
+
+Confirme as regras atuais na fonte indicada antes de agir.
+
+Conteúdo informativo, montado a partir de fontes públicas. Este assistente não é canal oficial de nenhum órgão público. Confirme sempre as regras atuais na fonte indicada."
+T02,B,Onde consultar o CPF?,encontrado DOC02,encontrado DOC02,True,0.1278,"Como fazer o CPF ou consultar minha situação cadastral?
+
+A inscrição no CPF é gratuita e pode ser feita pela internet, no site da Receita Federal, sem intermediários.
+
+Em unidades conveniadas (como Correios, Banco do Brasil, Caixa e cartórios de registro civil), pode haver uma taxa de atendimento de R$ 7,00.
+
+A consulta da situação cadastral e a emissão do comprovante de inscrição também são gratuitas no portal gov.br.
+
+Observação: Desconfie de quem cobra para fazer a inscrição online.
+
+Fonte: Receita Federal - gov.br
+Referência: https://www.gov.br/pt-br/servicos/consultar-cadastro-de-pessoas-fisicas
+Verificada em: 2026-11-17
+
+Confirme as regras atuais na fonte indicada antes de agir.
+
+Conteúdo informativo, montado a partir de fontes públicas. Este assistente não é canal oficial de nenhum órgão público. Confirme sempre as regras atuais na fonte indicada."
+T03,A,Como tirar o título de eleitor?,encontrado DOC04,encontrado DOC04,True,0.1387,"Como tirar o título de eleitor pela primeira vez?
+
+O primeiro título pode ser pedido gratuitamente no Autoatendimento Eleitoral - Título Net, no portal do TSE. É preciso enviar um documento oficial com foto (frente e verso), um comprovante de residência atualizado e uma selfie segurando o documento. Quem tira o título pela primeira vez precisa ir ao cartório eleitoral para coletar a biometria. Pode tirar a partir dos 15 anos; o voto é permitido a partir dos 16. Quem já é eleitor tem a via digital no aplicativo e-Título.
+
+Fonte: Tribunal Superior Eleitoral (TSE)
+Referência: https://www.tse.jus.br/eleitor/titulo-de-eleitor/pre-atendimento-eleitoral-titulo-net
+Verificada em: 2026-11-17
+
+Confirme as regras atuais na fonte indicada antes de agir.
+
+Conteúdo informativo, montado a partir de fontes públicas. Este assistente não é canal oficial de nenhum órgão público. Confirme sempre as regras atuais na fonte indicada."
+T03,B,Como tirar o título de eleitor?,encontrado DOC04,encontrado DOC04,True,0.1333,"Como tirar o título de eleitor pela primeira vez?
+
+O primeiro título pode ser pedido gratuitamente no Autoatendimento Eleitoral - Título Net, no portal do TSE.
+
+É preciso enviar um documento oficial com foto (frente e verso), um comprovante de residência atualizado e uma selfie segurando o documento.
+
+Quem tira o título pela primeira vez precisa ir ao cartório eleitoral para coletar a biometria.
+
+Pode tirar a partir dos 15 anos; o voto é permitido a partir dos 16.
+
+Quem já é eleitor tem a via digital no aplicativo e-Título.
+
+Observação: Em anos de eleição, o cadastro eleitoral fecha alguns meses antes do pleito.
+
+Fonte: Tribunal Superior Eleitoral (TSE)
+Referência: https://www.tse.jus.br/eleitor/titulo-de-eleitor/pre-atendimento-eleitoral-titulo-net
+Verificada em: 2026-11-17
+
+Confirme as regras atuais na fonte indicada antes de agir.
+
+Conteúdo informativo, montado a partir de fontes públicas. Este assistente não é canal oficial de nenhum órgão público. Confirme sempre as regras atuais na fonte indicada."
+T04,A,Como acessar o Meu INSS?,encontrado SERV02,encontrado SERV02,True,0.1045,"Como acessar os serviços do INSS?
+
+Os serviços do INSS podem ser pedidos pelo site ou aplicativo Meu INSS (meu.inss.gov.br), com o login da conta gov.br. Lá há opção ""Novo Pedido"" para solicitar benefícios e acompanhar processos. Quem não tem internet pode ligar para a Central 135. O atendimento presencial nas agências precisa de agendamento.
+
+Fonte: Instituto Nacional do Seguro Social (INSS)
+Referência: https://meu.inss.gov.br
+Verificada em: 2026-11-17
+
+Confirme as regras atuais na fonte indicada antes de agir.
+
+Conteúdo informativo, montado a partir de fontes públicas. Este assistente não é canal oficial de nenhum órgão público. Confirme sempre as regras atuais na fonte indicada."
+T04,B,Como acessar o Meu INSS?,encontrado SERV02,encontrado SERV02,True,0.1054,"Como acessar os serviços do INSS?
+
+Os serviços do INSS podem ser pedidos pelo site ou aplicativo Meu INSS (meu.inss.gov.br), com o login da conta gov.br.
+
+Lá há opção ""Novo Pedido"" para solicitar benefícios e acompanhar processos.
+
+Quem não tem internet pode ligar para a Central 135.
+
+O atendimento presencial nas agências precisa de agendamento.
+
+Observação: O INSS não pede dados nem senha por e-mail ou WhatsApp. Use só os canais oficiais.
+
+Fonte: Instituto Nacional do Seguro Social (INSS)
+Referência: https://meu.inss.gov.br
+Verificada em: 2026-11-17
+
+Confirme as regras atuais na fonte indicada antes de agir.
+
+Conteúdo informativo, montado a partir de fontes públicas. Este assistente não é canal oficial de nenhum órgão público. Confirme sempre as regras atuais na fonte indicada."
+T05,A,Como pedir seguro-desemprego?,encontrado SERV04,encontrado SERV04,True,0.1113,"Como pedir o seguro-desemprego?
+
+O seguro-desemprego é para quem trabalhava com carteira assinada e foi dispensado sem justa causa. O trabalhador formal deve fazer o pedido entre o 7º e o 120º dia corrido após a demissão. A solicitação pode ser feita pelo aplicativo Carteira de Trabalho Digital, pelo portal gov.br (com o número do requerimento entregue pela empresa) ou presencialmente em uma unidade de atendimento. As parcelas são pagas pela Caixa.
+
+Fonte: Ministério do Trabalho e Emprego - gov.br
+Referência: https://www.gov.br/pt-br/servicos/solicitar-o-seguro-desemprego
+Verificada em: 2026-11-17
+
+Confirme as regras atuais na fonte indicada antes de agir.
+
+Conteúdo informativo, montado a partir de fontes públicas. Este assistente não é canal oficial de nenhum órgão público. Confirme sempre as regras atuais na fonte indicada."
+T05,B,Como pedir seguro-desemprego?,encontrado SERV04,encontrado SERV04,True,0.1125,"Como pedir o seguro-desemprego?
+
+O seguro-desemprego é para quem trabalhava com carteira assinada e foi dispensado sem justa causa.
+
+O trabalhador formal deve fazer o pedido entre o 7º e o 120º dia corrido após a demissão.
+
+A solicitação pode ser feita pelo aplicativo Carteira de Trabalho Digital, pelo portal gov.br (com o número do requerimento entregue pela empresa) ou presencialmente em uma unidade de atendimento.
+
+As parcelas são pagas pela Caixa.
+
+Observação: Empregados domésticos e outras categorias têm prazos e regras próprios.
+
+Fonte: Ministério do Trabalho e Emprego - gov.br
+Referência: https://www.gov.br/pt-br/servicos/solicitar-o-seguro-desemprego
+Verificada em: 2026-11-17
+
+Confirme as regras atuais na fonte indicada antes de agir.
+
+Conteúdo informativo, montado a partir de fontes públicas. Este assistente não é canal oficial de nenhum órgão público. Confirme sempre as regras atuais na fonte indicada."
+T06,A,"Fui mandado embora, o que eu faço?",encontrado SERV04,encontrado SERV04,True,0.1218,"Como pedir o seguro-desemprego?
+
+O seguro-desemprego é para quem trabalhava com carteira assinada e foi dispensado sem justa causa. O trabalhador formal deve fazer o pedido entre o 7º e o 120º dia corrido após a demissão. A solicitação pode ser feita pelo aplicativo Carteira de Trabalho Digital, pelo portal gov.br (com o número do requerimento entregue pela empresa) ou presencialmente em uma unidade de atendimento. As parcelas são pagas pela Caixa.
+
+Fonte: Ministério do Trabalho e Emprego - gov.br
+Referência: https://www.gov.br/pt-br/servicos/solicitar-o-seguro-desemprego
+Verificada em: 2026-11-17
+
+Confirme as regras atuais na fonte indicada antes de agir.
+
+Conteúdo informativo, montado a partir de fontes públicas. Este assistente não é canal oficial de nenhum órgão público. Confirme sempre as regras atuais na fonte indicada."
+T06,B,"Fui mandado embora, o que eu faço?",encontrado SERV04,encontrado SERV04,True,0.1175,"Como pedir o seguro-desemprego?
+
+O seguro-desemprego é para quem trabalhava com carteira assinada e foi dispensado sem justa causa.
+
+O trabalhador formal deve fazer o pedido entre o 7º e o 120º dia corrido após a demissão.
+
+A solicitação pode ser feita pelo aplicativo Carteira de Trabalho Digital, pelo portal gov.br (com o número do requerimento entregue pela empresa) ou presencialmente em uma unidade de atendimento.
+
+As parcelas são pagas pela Caixa.
+
+Observação: Empregados domésticos e outras categorias têm prazos e regras próprios.
+
+Fonte: Ministério do Trabalho e Emprego - gov.br
+Referência: https://www.gov.br/pt-br/servicos/solicitar-o-seguro-desemprego
+Verificada em: 2026-11-17
+
+Confirme as regras atuais na fonte indicada antes de agir.
+
+Conteúdo informativo, montado a partir de fontes públicas. Este assistente não é canal oficial de nenhum órgão público. Confirme sempre as regras atuais na fonte indicada."
+T07,A,Não tenho dinheiro para advogado,encontrado DIR03,encontrado DIR03,True,0.1922,"Quem tem direito à Defensoria Pública?
+
+A Constituição garante assistência jurídica integral e gratuita a quem comprovar que não pode pagar um advogado sem prejudicar o próprio sustento (art. 5º, LXXIV, e art. 134). Esse atendimento é feito pela Defensoria Pública do seu estado ou, em causas federais (como INSS), pela Defensoria Pública da União. Em geral, leve documento de identidade, CPF, comprovante de residência e de renda.
+
+Fonte: Constituição Federal de 1988, art. 5º, LXXIV, e art. 134 - Planalto
+Referência: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm
+Verificada em: 2026-11-17
+
+Confirme as regras atuais na fonte indicada antes de agir.
+
+Conteúdo informativo, montado a partir de fontes públicas. Este assistente não é canal oficial de nenhum órgão público. Confirme sempre as regras atuais na fonte indicada."
+T07,B,Não tenho dinheiro para advogado,encontrado DIR03,encontrado DIR03,True,0.1893,"Quem tem direito à Defensoria Pública?
+
+A Constituição garante assistência jurídica integral e gratuita a quem comprovar que não pode pagar um advogado sem prejudicar o próprio sustento (art. 5º, LXXIV, e art. 134).
+
+Esse atendimento é feito pela Defensoria Pública do seu estado ou, em causas federais (como INSS), pela Defensoria Pública da União.
+
+Em geral, leve documento de identidade, CPF, comprovante de residência e de renda.
+
+Observação: Os critérios de renda e a forma de agendamento são definidos por cada Defensoria.
+
+Fonte: Constituição Federal de 1988, art. 5º, LXXIV, e art. 134 - Planalto
+Referência: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm
+Verificada em: 2026-11-17
+
+Confirme as regras atuais na fonte indicada antes de agir.
+
+Conteúdo informativo, montado a partir de fontes públicas. Este assistente não é canal oficial de nenhum órgão público. Confirme sempre as regras atuais na fonte indicada."
+T08,A,Quero reclamar de uma empresa,encontrado DIR02,encontrado DIR02,True,0.1138,"Como fazer uma reclamação contra uma empresa?
+
+Uma opção gratuita e online é o Consumidor.gov.br, plataforma pública ligada ao Ministério da Justiça. Verifique se a empresa está cadastrada e registre a reclamação: a empresa tem até 10 dias para responder, e depois você tem até 20 dias para avaliar se o problema foi resolvido. Também é possível procurar o Procon da sua cidade ou estado.
+
+Fonte: Secretaria Nacional do Consumidor (Senacon) - Boletim Consumidor.gov.br
+Referência: https://www.consumidor.gov.br
+Verificada em: 2026-11-17
+
+Conteúdo informativo, montado a partir de fontes públicas. Este assistente não é canal oficial de nenhum órgão público. Confirme sempre as regras atuais na fonte indicada."
+T08,B,Quero reclamar de uma empresa,encontrado DIR02,encontrado DIR02,True,0.1171,"Como fazer uma reclamação contra uma empresa?
+
+Uma opção gratuita e online é o Consumidor.gov.br, plataforma pública ligada ao Ministério da Justiça.
+
+Verifique se a empresa está cadastrada e registre a reclamação: a empresa tem até 10 dias para responder, e depois você tem até 20 dias para avaliar se o problema foi resolvido.
+
+Também é possível procurar o Procon da sua cidade ou estado.
+
+Observação: O Consumidor.gov.br não abre processo judicial contra a empresa.
+
+Fonte: Secretaria Nacional do Consumidor (Senacon) - Boletim Consumidor.gov.br
+Referência: https://www.consumidor.gov.br
+Verificada em: 2026-11-17
+
+Conteúdo informativo, montado a partir de fontes públicas. Este assistente não é canal oficial de nenhum órgão público. Confirme sempre as regras atuais na fonte indicada."
+T09,A,"Perdi a certidão, o que faço?",encontrado DOC03,encontrado DOC03,True,0.1285,"Como pedir a segunda via da certidão de nascimento?
+
+A segunda via das certidões de nascimento, casamento e óbito pode ser pedida pela internet no Portal do Registro Civil (registrocivil.org.br), que reúne os cartórios de todo o país. É possível entrar com a conta gov.br e escolher entre certidão digital (PDF) ou impressa. Também dá para pedir presencialmente em qualquer cartório de registro civil. O registro de nascimento e a primeira certidão são gratuitos; a segunda via costuma ter custo, exceto para pessoas reconhecidamente pobres.
+
+Fonte: Portal do Registro Civil (ON-RCPN) / Corregedoria do TJMA
+Referência: https://www.registrocivil.org.br
+Verificada em: 2026-11-17
+
+Confirme as regras atuais na fonte indicada antes de agir.
+
+Conteúdo informativo, montado a partir de fontes públicas. Este assistente não é canal oficial de nenhum órgão público. Confirme sempre as regras atuais na fonte indicada."
+T09,B,"Perdi a certidão, o que faço?",encontrado DOC03,encontrado DOC03,True,0.1315,"Como pedir a segunda via da certidão de nascimento?
+
+A segunda via das certidões de nascimento, casamento e óbito pode ser pedida pela internet no Portal do Registro Civil (registrocivil.org.br), que reúne os cartórios de todo o país.
+
+É possível entrar com a conta gov.br e escolher entre certidão digital (PDF) ou impressa.
+
+Também dá para pedir presencialmente em qualquer cartório de registro civil.
+
+O registro de nascimento e a primeira certidão são gratuitos; a segunda via costuma ter custo, exceto para pessoas reconhecidamente pobres.
+
+Observação: Os valores das certidões são definidos por cada estado.
+
+Fonte: Portal do Registro Civil (ON-RCPN) / Corregedoria do TJMA
+Referência: https://www.registrocivil.org.br
+Verificada em: 2026-11-17
+
+Confirme as regras atuais na fonte indicada antes de agir.
+
+Conteúdo informativo, montado a partir de fontes públicas. Este assistente não é canal oficial de nenhum órgão público. Confirme sempre as regras atuais na fonte indicada."
+T10,A,Preciso da minha carteira digital para trabalhar,encontrado DOC05,encontrado DOC05,True,0.2289,"Como obter a Carteira de Trabalho Digital?
+
+A Carteira de Trabalho Digital é gratuita e substitui a carteira de papel. Basta ter o número do CPF e uma conta gov.br. Baixe o aplicativo Carteira de Trabalho Digital (Android ou iOS) ou acesse pelo portal gov.br e entre com seu login. Os vínculos de emprego informados pelo empregador aparecem no aplicativo.
+
+Fonte: Ministério do Trabalho e Emprego - gov.br
+Referência: https://www.gov.br/pt-br/servicos/obter-a-carteira-de-trabalho
+Verificada em: 2026-11-17
+
+Conteúdo informativo, montado a partir de fontes públicas. Este assistente não é canal oficial de nenhum órgão público. Confirme sempre as regras atuais na fonte indicada."
+T10,B,Preciso da minha carteira digital para trabalhar,encontrado DOC05,encontrado DOC05,True,0.2181,"Como obter a Carteira de Trabalho Digital?
+
+A Carteira de Trabalho Digital é gratuita e substitui a carteira de papel.
+
+Basta ter o número do CPF e uma conta gov.br.
+
+Baixe o aplicativo Carteira de Trabalho Digital (Android ou iOS) ou acesse pelo portal gov.br e entre com seu login.
+
+Os vínculos de emprego informados pelo empregador aparecem no aplicativo.
+
+Fonte: Ministério do Trabalho e Emprego - gov.br
+Referência: https://www.gov.br/pt-br/servicos/obter-a-carteira-de-trabalho
+Verificada em: 2026-11-17
+
+Conteúdo informativo, montado a partir de fontes públicas. Este assistente não é canal oficial de nenhum órgão público. Confirme sempre as regras atuais na fonte indicada."
+T11,A,Vai chover amanhã?,sem_resposta,sem_resposta,True,0.0351,
+T11,B,Vai chover amanhã?,sem_resposta,sem_resposta,True,0.0318,
+T12,A,Onde renovar meu passaporte?,sem_resposta,sem_resposta,True,0.0329,
+T12,B,Onde renovar meu passaporte?,sem_resposta,sem_resposta,True,0.0916,
+T13,A,   ,vazia,vazia,True,0.0051,
+T13,B,   ,vazia,vazia,True,0.0043,
+T14,A,documento,ambiguo DOC01 DOC02 DOC03 DOC04 DOC05,ambiguo DOC01 DOC02 DOC03 DOC04 DOC05,True,0.0142,
+T14,B,documento,ambiguo DOC01 DOC02 DOC03 DOC04 DOC05,ambiguo DOC01 DOC02 DOC03 DOC04 DOC05,True,0.0121,
+T15,A,Qual é o endereço da agência do INSS perto da minha casa?,sem_resposta,sem_resposta,True,0.1038,
+T15,B,Qual é o endereço da agência do INSS perto da minha casa?,sem_resposta,sem_resposta,True,0.0928,
+T16,A,Quero saber se meu patrão assinou minha carteira,encontrado DOC05,sem_resposta,False,0.1514,
+T16,B,Quero saber se meu patrão assinou minha carteira,encontrado DOC05,sem_resposta,False,0.1231,
+T17,A,Como cancelar meu CPF?,sem_resposta,sem_resposta,True,0.1457,
+T17,B,Como cancelar meu CPF?,sem_resposta,sem_resposta,True,0.1644,

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "T01",
+    "categoria": "direta",
+    "pergunta": "Como tirar o RG?",
+    "status_esperado": "encontrado",
+    "id_esperado": "DOC01"
+  },
+  {
+    "id": "T02",
+    "categoria": "direta",
+    "pergunta": "Onde consultar o CPF?",
+    "status_esperado": "encontrado",
+    "id_esperado": "DOC02"
+  },
+  {
+    "id": "T03",
+    "categoria": "direta",
+    "pergunta": "Como tirar o título de eleitor?",
+    "status_esperado": "encontrado",
+    "id_esperado": "DOC04"
+  },
+  {
+    "id": "T04",
+    "categoria": "direta",
+    "pergunta": "Como acessar o Meu INSS?",
+    "status_esperado": "encontrado",
+    "id_esperado": "SERV02"
+  },
+  {
+    "id": "T05",
+    "categoria": "direta",
+    "pergunta": "Como pedir seguro-desemprego?",
+    "status_esperado": "encontrado",
+    "id_esperado": "SERV04"
+  },
+  {
+    "id": "T06",
+    "categoria": "reformulada",
+    "pergunta": "Fui mandado embora, o que eu faço?",
+    "status_esperado": "encontrado",
+    "id_esperado": "SERV04"
+  },
+  {
+    "id": "T07",
+    "categoria": "reformulada",
+    "pergunta": "Não tenho dinheiro para advogado",
+    "status_esperado": "encontrado",
+    "id_esperado": "DIR03"
+  },
+  {
+    "id": "T08",
+    "categoria": "reformulada",
+    "pergunta": "Quero reclamar de uma empresa",
+    "status_esperado": "encontrado",
+    "id_esperado": "DIR02"
+  },
+  {
+    "id": "T09",
+    "categoria": "reformulada",
+    "pergunta": "Perdi a certidão, o que faço?",
+    "status_esperado": "encontrado",
+    "id_esperado": "DOC03"
+  },
+  {
+    "id": "T10",
+    "categoria": "reformulada",
+    "pergunta": "Preciso da minha carteira digital para trabalhar",
+    "status_esperado": "encontrado",
+    "id_esperado": "DOC05"
+  },
+  {
+    "id": "T11",
+    "categoria": "fora_do_tema",
+    "pergunta": "Vai chover amanhã?",
+    "status_esperado": "sem_resposta",
+    "id_esperado": null
+  },
+  {
+    "id": "T12",
+    "categoria": "fora_do_tema",
+    "pergunta": "Onde renovar meu passaporte?",
+    "status_esperado": "sem_resposta",
+    "id_esperado": null
+  },
+  {
+    "id": "T13",
+    "categoria": "limite",
+    "pergunta": "   ",
+    "status_esperado": "vazia",
+    "id_esperado": null
+  },
+  {
+    "id": "T14",
+    "categoria": "limite",
+    "pergunta": "documento",
+    "status_esperado": "ambiguo",
+    "id_esperado": null,
+    "ids_esperados": [
+      "DOC01",
+      "DOC02",
+      "DOC03",
+      "DOC04",
+      "DOC05"
+    ]
+  },
+  {
+    "id": "T15",
+    "categoria": "limite",
+    "pergunta": "Qual é o endereço da agência do INSS perto da minha casa?",
+    "status_esperado": "sem_resposta",
+    "id_esperado": null
+  },
+  {
+    "id": "T16",
+    "categoria": "reformulada",
+    "pergunta": "Quero saber se meu patrão assinou minha carteira",
+    "status_esperado": "encontrado",
+    "id_esperado": "DOC05"
+  },
+  {
+    "id": "T17",
+    "categoria": "limite",
+    "pergunta": "Como cancelar meu CPF?",
+    "status_esperado": "sem_resposta",
+    "id_esperado": null
+  }
+]
