@@ -30,9 +30,3 @@ Marque após abrir cada link de `data/base.json` e confirmar que o resumo bate c
 - [ ] DIR01 · [ ] DIR02 · [ ] DIR03 · [ ] DIR04 · [ ] DIR05
 
 Se algo mudou, corrija o registro, atualize `data_verificacao` e rode `python scripts/validar_base.py`.
-
-## Compromissos da equipe
-
-- Antes da entrega, cada integrante executa o projeto e deve saber explicar o funcionamento da busca, dos modelos de resposta e dos testes.
-- O conteúdo da base é de responsabilidade da equipe, não da ferramenta de IA.
-- O assistente informa sempre que não é canal oficial e indica onde confirmar a informação.
