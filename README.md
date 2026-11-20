@@ -209,7 +209,7 @@ Plano completo e tabela pergunta a pergunta em [`docs/testes.md`](docs/testes.md
 - **Tempo médio de consulta:** cerca de **0,08 ms** (varia por máquina e execução).
 - **Respostas inventadas:** **0**. Todas as perguntas fora da base receberam o aviso de limite.
 - **Testes automáticos:** 6/6 passando.
-- **Teste de usabilidade:** roteiro de 5 tarefas em `docs/testes.md`, seção 5. _[Resumir aqui o resultado com o participante.]_
+- **Teste de usabilidade:** roteiro de 5 tarefas em `docs/testes.md`, seção 5. _[1 participante concluiu as 5 tarefas do roteiro sem ajuda, cada uma em menos de 1 minuto, preferiu o modelo B (texto por partes) e avaliou o assistente como "bem fácil de entender". Detalhes em `docs/testes.md`, seção 5.]_
 
 **Interpretação.** A busca acerta as perguntas dentro do escopo e recusa corretamente as que estão fora dele, o que é essencial para não orientar errado. O único erro ("meu patrão assinou minha carteira") mostra o limite da busca por palavras-chave quando a pessoa usa vocabulário que não está cadastrado. Nesse caso, o sistema agora sugere a Carteira de Trabalho Digital como assunto próximo. O tempo é irrelevante para uma base deste tamanho.
 
