@@ -73,23 +73,23 @@ Os tempos variam um pouco a cada execução (de 0,06 a 0,09 ms nas rodadas feita
 
 ## 5. Teste de facilidade de uso
 
-> ⚠️ **PENDENTE — preencher com uma sessão real.** Os campos abaixo só podem ser preenchidos depois de aplicar o roteiro com pelo menos uma pessoa de fora do grupo. Não preencha com dados inventados.
+**Como foi aplicado:** um participante usou a interface gráfica (`python src/sistema.py`) seguindo um roteiro de 5 tarefas, sem ajuda durante a execução. Não foram registrados dados pessoais do participante.
 
-**Como aplicar:** use a interface gráfica (`python src/sistema.py`). Leia cada tarefa para o participante e não ajude durante a execução. Anote apenas observações anônimas: não registre nome, idade ou outros dados pessoais.
-
-| # | Tarefa para o participante | Resultado (sem ajuda / com ajuda / desistiu) | Tempo aprox. | Dificuldade observada |
+| # | Tarefa para o participante | Resultado | Tempo aprox. | Observações |
 |---|---|---|---|---|
-| 1 | Encontre, pelo menu, como tirar a nova carteira de identidade. | | | |
-| 2 | Você foi demitido. Descubra o que fazer escrevendo uma pergunta. | | | |
-| 3 | Abra a fonte oficial da orientação que você encontrou. | | | |
-| 4 | Troque entre "Ler em texto corrido" e "Ler por partes". Qual formato foi mais fácil de entender? Por quê? | | | |
-| 5 | Pergunte "vai chover amanhã?" e depois encontre outro assunto a partir dessa tela. | | | |
+| 1 | Encontrar, pelo menu, como tirar a nova carteira de identidade | Concluída sem ajuda | Menos de 1 min | Nenhuma dificuldade relatada |
+| 2 | Encontrar uma orientação escrevendo uma pergunta | Concluída sem ajuda | Menos de 1 min | O participante digitou "Como tirar o título de eleitor?" e o sistema retornou a orientação correspondente (DOC04) |
+| 3 | Abrir a fonte oficial da orientação encontrada | Concluída sem ajuda | Menos de 1 min | Encontrou o botão "Consultar a fonte" |
+| 4 | Comparar "Ler em texto corrido" (modelo A) e "Ler por partes" (modelo B) | Concluída sem ajuda | Menos de 1 min | Preferiu o texto por partes (modelo B): "achei mais simples de usar" |
+| 5 | Fazer uma pergunta fora do tema e seguir para outro assunto | Concluída sem ajuda | Menos de 1 min | Entendeu a mensagem de limite e conseguiu continuar a navegação |
 
-**Perfil do participante (sem dados pessoais):** _ex.: "estudante de outro curso, usa gov.br às vezes"_
+**Resumo:** 5 de 5 tarefas concluídas sem ajuda, todas em menos de 1 minuto. Na avaliação geral, o participante disse que o assistente foi "bem fácil de entender".
 
-**Resumo:** _X de 5 tarefas concluídas sem ajuda. Principais dificuldades: ..._
+**Formato preferido na tarefa 4:** modelo B (texto por partes), por ser mais simples de usar. Isso confirma a escolha do modelo B como padrão, descrita em `docs/prompts.md`.
 
-**Formato preferido na tarefa 4:** _A ou B, e o motivo dado pelo participante._
+**Observação sobre o roteiro:** na tarefa 2, o participante escolheu sua própria pergunta (título de eleitor) em vez do cenário de demissão sugerido. O objetivo da tarefa, que era encontrar uma orientação digitando uma pergunta, foi mantido.
+
+**Limitações deste teste:** foi feito com um único participante e os tempos foram estimados, não cronometrados. O resultado indica que a navegação é compreensível para alguém de fora, mas não substitui um teste com mais pessoas e perfis diferentes (por exemplo, quem tem pouca familiaridade com computador).
 
 ## 6. Melhorias propostas
 
