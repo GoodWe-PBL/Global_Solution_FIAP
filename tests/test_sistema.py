@@ -27,6 +27,12 @@ class SistemaTestes(unittest.TestCase):
         self.assertEqual(amplo.status, "ambiguo")
         self.assertGreaterEqual(len(amplo.ids), 2)
 
+    def test_sugestoes_quando_nao_ha_resposta(self):
+        pergunta = "Quero saber se meu patrão assinou minha carteira"
+        self.assertEqual(self.sistema.buscar(pergunta).status, "sem_resposta")
+        self.assertIn("DOC05", self.sistema.sugestoes(pergunta))
+        self.assertEqual(self.sistema.sugestoes("qual a previsão do tempo amanhã?"), [])
+
     def test_respostas_mantem_fonte_data_e_aviso(self):
         for modelo in ("A", "B"):
             texto = self.sistema.resposta("DOC01", modelo)

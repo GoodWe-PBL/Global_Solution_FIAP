@@ -16,7 +16,7 @@ class Interface:
         self.sistema = sistema
         self.janela = janela
         self.historico = []
-        self.modelo = "A"
+        self.modelo = "B"
         self.pergunta = tk.StringVar(janela)
         janela.title("Citizen Assist AI · Guia de serviços")
         janela.geometry("900x710")
@@ -165,7 +165,12 @@ class Interface:
             self.escolhas(ids)
         else:
             self.titulo("Sua busca", "Ainda não temos essa orientação")
-            self.texto("Tente escrever de outro jeito ou veja os temas disponíveis.", cor=SUAVE)
+            self.texto("Não há base suficiente para orientar com segurança, e o assistente não inventa respostas. "
+                       "Tente escrever de outro jeito ou veja os temas disponíveis.", cor=SUAVE)
+            sugestoes = self.sistema.sugestoes(self.pergunta.get())
+            if sugestoes:
+                self.texto("Talvez algum destes assuntos ajude:", 11, ROSA, True)
+                self.escolhas(sugestoes)
             self.opcao("Editar minha pergunta", self.anterior, True)
             self.opcao("Ver os temas", partial(self.ir, self.temas))
 

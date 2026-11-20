@@ -172,6 +172,15 @@ class Sistema:
             return Resultado("ambiguo", tuple(selecionados[:5]))
         return Resultado("encontrado", (selecionados[0],))
 
+    def sugestoes(self, pergunta: str, limite: int = 3) -> list[str]:
+        """Assuntos próximos para oferecer quando a busca não encontra resposta segura."""
+        contagem = defaultdict(int)
+        for termo in termos(pergunta):
+            for rid in self.por_palavra.get(termo, ()):
+                contagem[rid] += 1
+        ordenados = sorted(contagem, key=lambda rid: (-contagem[rid], rid))
+        return ordenados[:limite]
+
     def trechos(self, rid, modelo):
         registro = self.por_id[rid]
         texto = registro["orientacao"]
@@ -214,14 +223,25 @@ def executar_terminal(sistema: Sistema) -> None:
                 continue
             ids = sistema.por_tema[chaves[int(escolha) - 1]]
         elif opcao == "2":
-            resultado = sistema.buscar(input("Pergunta: "))
+            pergunta = input("Pergunta: ")
+            resultado = sistema.buscar(pergunta)
             if resultado.status == "vazia":
                 print("Digite uma pergunta para consultar.")
                 continue
             if resultado.status == "sem_resposta":
-                print("Não há informação suficiente na base. Escolha um tema no menu ou consulte a fonte oficial.")
-                continue
-            ids = list(resultado.ids)
+                print("Não há informação suficiente na base para responder com segurança.")
+                print("Não vamos inventar uma orientação. Consulte o canal oficial do órgão responsável.")
+                ids = sistema.sugestoes(pergunta)
+                if ids:
+                    print("\nTalvez algum destes assuntos ajude:")
+                else:
+                    temas = ", ".join(info["nome"] for info in sistema.base["temas"].values())
+                    print(f"Temas disponíveis (opção 1 do menu): {temas}.")
+                    continue
+            else:
+                ids = list(resultado.ids)
+                if resultado.status == "ambiguo":
+                    print("Encontramos mais de uma orientação possível. Escolha a que melhor descreve sua dúvida:")
         else:
             print("Opção inválida.")
             continue
