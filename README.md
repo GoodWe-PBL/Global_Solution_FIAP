@@ -10,11 +10,11 @@ Assistente digital de orientação cidadã, desenvolvido para o desafio **Citize
 
 | Integrante | RM | Responsabilidade |
 |---|---|---|
-| Guilherme Alves Nunes | _[RM]_ | Base de conhecimento, fontes, documentação da base e roteiro do vídeo |
-| _[nome]_ | _[RM]_ | Perguntas de teste, métricas, usabilidade e documentação |
-| Gabriel Leão Rocha | _[RM]_ | Sistema, interface, avaliador, integração e vídeo |
+| Guilherme Alves Nunes | rm572754 | Base de conhecimento, fontes, documentação da base e roteiro do vídeo |
+| Pedro Henrique de Souza Elias |rm570487 | Perguntas de teste, métricas, usabilidade e documentação |
+| Gabriel Leão Rocha | rm571330 | Sistema, interface, avaliador, integração e vídeo |
 
-**Vídeo de apresentação (YouTube, não listado):** _[colar o link aqui]_
+**Vídeo de apresentação (YouTube, não listado):** https://youtu.be/qtDNt3mKRD0
 
 ---
 
